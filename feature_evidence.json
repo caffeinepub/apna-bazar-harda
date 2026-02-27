@@ -1,0 +1,32 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-all-green-color-values-with-royal-blue-1a4fa0-and-its-tonal-variants-across-the-entire-website-this-includes-the-navigation-bar-background-and-logo-accent-the-hero-section-background-gradient-overlay-all-cta-and-action-buttons-the-why-choose-us-section-icon-accents-and-card-hover-highlights-the-testimonials-section-background-currently-dark-green-the-footer-background-all-section-heading-underlines-and-accent-decorators-hover-states-border-accents-and-any-other-element-currently-using-green-update-the-css-custom-properties-in-frontend-src-index-css-the-tailwind-config-brand-colors-in-frontend-tailwind-config-js-and-all-inline-classname-color-references-in-each-component-file-navigation-tsx-herosection-tsx-aboutsection-tsx-whychooseussection-tsx-testimonialssection-tsx-gallerysection-tsx-contactsection-tsx-footer-tsx-app-tsx-ensure-the-new-blue-palette-is-visually-consistent-and-professional-use-a-dark-royal-blue-1a4fa0-as-the-primary-brand-color-a-lighter-blue-2563eb-or-similar-for-hover-accent-states-and-a-deep-navy-0f2d6b-or-similar-for-dark-section-backgrounds-replacing-dark-green-white-remains-the-background-and-text-on-color-remains-white",
+      "featureTitle": "Replace all green color values with royal blue (#1a4fa0) and its tonal variants across the entire website. This includes: the Navigation bar background and logo accent, the Hero section background/gradient overlay, all CTA and action buttons, the Why Choose Us section icon accents and card hover highlights, the Testimonials section background (currently dark green), the Footer background, all section heading underlines and accent decorators, hover states, border accents, and any other element currently using green. Update the CSS custom properties in frontend/src/index.css, the Tailwind config brand colors in frontend/tailwind.config.js, and all inline/className color references in each component file (Navigation.tsx, HeroSection.tsx, AboutSection.tsx, WhyChooseUsSection.tsx, TestimonialsSection.tsx, GallerySection.tsx, ContactSection.tsx, Footer.tsx, App.tsx). Ensure the new blue palette is visually consistent and professional: use a dark royal blue (#1a4fa0) as the primary brand color, a lighter blue (#2563eb or similar) for hover/accent states, and a deep navy (#0f2d6b or similar) for dark section backgrounds (replacing dark green). White remains the background and text-on-color remains white.",
+      "files": [
+        "frontend/src/components/AboutSection.tsx",
+        "frontend/src/components/ContactSection.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/GallerySection.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/components/TestimonialsSection.tsx",
+        "frontend/src/components/WhyChooseUsSection.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

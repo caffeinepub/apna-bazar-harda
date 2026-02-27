@@ -1,0 +1,76 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace green color theme with royal blue across the entire website",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Replace all green color values with royal blue (#1a4fa0) and its tonal variants across the entire website including CSS custom properties, Tailwind config, and all component files",
+      "acceptanceCriteria": [
+        "No green color values (#1a7a3c, #166534, or similar) remain in any component, CSS, or Tailwind config file",
+        "Navigation bar uses royal blue background (#1a4fa0 or close variant)",
+        "Hero section background/gradient uses royal blue",
+        "All buttons use royal blue with appropriate hover states in a lighter or darker blue",
+        "Testimonials section dark background is replaced with deep navy blue instead of dark green",
+        "Footer background is replaced with deep navy blue instead of dark green",
+        "Section accent underlines, card icon colors, and hover highlights all use blue variants",
+        "Tailwind config brand color tokens are updated to blue values",
+        "CSS custom properties in index.css are updated to blue values",
+        "The website remains fully mobile-responsive after the color change",
+        "White text on blue backgrounds remains legible throughout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Replace all green OKLCH color values in CSS custom properties with royal blue equivalents. Update --brand-primary from green (0.45 0.15 155) to royal blue (#1a4fa0 equivalent), --brand-primary-dark from dark green to deep navy (#0f2d6b equivalent), --brand-primary-light from light green to lighter blue (#2563eb equivalent), and any other green-based custom properties. Ensure all OKLCH values maintain proper contrast ratios for accessibility with white text."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Replace all green brand color tokens in the theme.extend.colors section with royal blue variants. Update brand.primary to #1a4fa0, brand.primary-dark to #0f2d6b, brand.primary-light to #2563eb, and any hover/accent colors from green to blue. Ensure the color palette maintains visual consistency across all breakpoints."
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Replace all green color references with royal blue variants. Update the navigation bar background from bg-brand-primary/green to royal blue (#1a4fa0), change any green border, text, or accent colors to blue variants, update hover states on links and buttons to use lighter blue (#2563eb), and ensure the logo accent colors use blue instead of green. Maintain all existing responsive behavior and smooth-scroll functionality."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Replace the hero section background gradient overlay from green to royal blue. Update any bg-gradient or overlay classes using green to use royal blue (#1a4fa0) with appropriate opacity, change CTA button backgrounds and borders from green to royal blue with lighter blue (#2563eb) hover states, update any text accent colors or underlines from green to blue, and ensure the gradient remains visually appealing over the hero banner background image."
+        },
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Replace any green color values with royal blue variants. Update the floating badge background from green to royal blue (#1a4fa0), change any green accent underlines or decorators on headings to blue, update border colors from green to blue, and ensure hover states use lighter blue (#2563eb) if applicable."
+        },
+        {
+          "path": "frontend/src/components/WhyChooseUsSection.tsx",
+          "operation": "modify",
+          "description": "Replace all green icon accents, card hover highlights, and underlines with royal blue variants. Update icon colors from green to royal blue (#1a4fa0), change card hover border or background highlights from green to blue, update the accent underlines on headings from green to blue, and ensure hover animations use lighter blue (#2563eb) for smooth transitions."
+        },
+        {
+          "path": "frontend/src/components/TestimonialsSection.tsx",
+          "operation": "modify",
+          "description": "Replace the dark green section background with deep navy blue. Update the section background from dark green (bg-brand-primary-dark or similar) to deep navy (#0f2d6b), change any green accent colors on cards or decorators to royal blue (#1a4fa0), update star rating colors if they use green to use a gold/yellow color for ratings (not blue), and ensure white text remains legible on the new dark navy background."
+        },
+        {
+          "path": "frontend/src/components/GallerySection.tsx",
+          "operation": "modify",
+          "description": "Replace any green border, hover, or accent colors with royal blue variants. Update image card borders or overlays from green to royal blue (#1a4fa0), change hover state colors to lighter blue (#2563eb), update lightbox navigation or zoom button colors from green to blue, and ensure the gallery maintains its responsive grid layout."
+        },
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Replace all green color values with royal blue variants. Update the 'Open Now' status badge background from green to a suitable indicator color (keep green for status, but if used as brand accent, change to blue), change info card icon colors from green to royal blue (#1a4fa0), update the 'Get Directions' CTA button from green to royal blue with lighter blue hover state, and update any border or accent colors from green to blue."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace the dark green footer background with deep navy blue. Update the footer background from dark green to deep navy (#0f2d6b), change any green accent colors on links, borders, or decorators to royal blue (#1a4fa0), update hover states on links to use lighter blue (#2563eb), change the 'Visit Us' CTA button from green to royal blue with appropriate hover state, and ensure white text remains legible on the new dark navy background."
+        }
+      ]
+    }
+  ]
+}

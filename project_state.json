@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Professional website for 'Apna Bazar Harda' supermarket in Harda, Madhya Pradesh. Royal blue and white color theme, mobile responsive. Includes Hero, About Us, Why Choose Us, Testimonials, Gallery, and Contact sections with Google Maps integration.",
+  "architectural_notes": [
+    "Mobile responsive design targeting local families and daily shoppers in Harda",
+    "Royal blue (#1a4fa0) replaces green as the primary brand color throughout the site"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-full-page-hero-section-with-the-heading-apna-bazar-harda-your-trusted-supermarket-subheading-quality-products-affordable-prices-friendly-service-and-a-prominent-cta-button-labeled-visit-us-today-the-hero-should-feature-a-rich-green-background-with-a-supermarket-themed-visual-overlaid-with-white-text",
+      "title": "Implement a full-page Hero section with the heading 'Apna Bazar Harda – Your Trusted Supermarket', subheading 'Quality Products • Affordable Prices • Friendly Service', and a prominent CTA button labeled 'Visit Us Today'. The hero should feature a rich green background with a supermarket-themed visual, overlaid with white text.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-about-us-section-that-describes-apna-bazar-harda-as-one-of-the-best-grocery-and-supermarket-destinations-in-harda-madhya-pradesh-highlight-that-the-store-serves-local-families-and-daily-shoppers-with-a-wide-range-of-products-including-grocery-dairy-kitchen-items-and-daily-household-essentials-at-affordable-prices",
+      "title": "Implement an 'About Us' section that describes Apna Bazar Harda as one of the best grocery and supermarket destinations in Harda, Madhya Pradesh. Highlight that the store serves local families and daily shoppers with a wide range of products including grocery, dairy, kitchen items, and daily household essentials at affordable prices.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-why-choose-us-section-displaying-six-feature-cards-4-5-star-rated-affordable-pricing-wide-range-of-products-friendly-staff-easy-trolley-shopping-and-fast-billing-each-card-should-have-a-relevant-icon-a-short-label-and-a-one-line-description-layout-should-be-a-responsive-grid",
+      "title": "Implement a 'Why Choose Us' section displaying six feature cards: '4.5 Star Rated', 'Affordable Pricing', 'Wide Range of Products', 'Friendly Staff', 'Easy Trolley Shopping', and 'Fast Billing'. Each card should have a relevant icon, a short label, and a one-line description. Layout should be a responsive grid.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-customer-testimonials-section-with-4-5-fictional-but-realistic-sounding-positive-customer-reviews-summarizing-satisfaction-with-product-variety-affordability-staff-friendliness-and-the-overall-shopping-experience-at-apna-bazar-harda-each-testimonial-should-show-a-customer-name-star-rating-4-5-stars-and-a-short-quote",
+      "title": "Implement a 'Customer Testimonials' section with 4–5 fictional but realistic-sounding positive customer reviews summarizing satisfaction with product variety, affordability, staff friendliness, and the overall shopping experience at Apna Bazar Harda. Each testimonial should show a customer name, star rating (4–5 stars), and a short quote.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-gallery-section-that-displays-a-responsive-grid-of-placeholder-images-representing-a-supermarket-environment-store-aisles-fresh-produce-billing-counter-trolley-area-use-the-generated-gallery-images-as-static-assets-from-frontend-public-assets-generated",
+      "title": "Implement a 'Gallery' section that displays a responsive grid of placeholder images representing a supermarket environment (store aisles, fresh produce, billing counter, trolley area). Use the generated gallery images as static assets from frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-section-that-includes-the-store-location-harda-madhya-pradesh-a-note-that-the-store-is-open-daily-a-placeholder-phone-number-and-an-embedded-google-maps-iframe-centered-on-harda-madhya-pradesh-also-include-a-simple-contact-info-layout-with-icons-for-location-phone-and-hours",
+      "title": "Implement a 'Contact' section that includes the store location (Harda, Madhya Pradesh), a note that the store is 'Open Daily', a placeholder phone number, and an embedded Google Maps iframe centered on Harda, Madhya Pradesh. Also include a simple contact info layout with icons for location, phone, and hours.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-clean-modern-green-and-white-visual-theme-consistently-across-the-entire-website-use-deep-green-1a7a3c-or-similar-as-the-primary-brand-color-white-as-the-background-and-accent-greens-for-highlights-typography-should-be-professional-and-legible-include-a-sticky-top-navigation-bar-with-the-store-name-logo-and-section-links-home-about-why-us-gallery-contact-ensure-full-mobile-responsiveness-with-a-hamburger-menu-on-small-screens",
+      "title": "Apply a clean, modern green and white visual theme consistently across the entire website. Use deep green (#1a7a3c or similar) as the primary brand color, white as the background, and accent greens for highlights. Typography should be professional and legible. Include a sticky top navigation bar with the store name/logo and section links (Home, About, Why Us, Gallery, Contact). Ensure full mobile responsiveness with a hamburger menu on small screens.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-green-color-values-with-royal-blue-1a4fa0-and-its-tonal-variants-across-the-entire-website-this-includes-the-navigation-bar-background-and-logo-accent-the-hero-section-background-gradient-overlay-all-cta-and-action-buttons-the-why-choose-us-section-icon-accents-and-card-hover-highlights-the-testimonials-section-background-currently-dark-green-the-footer-background-all-section-heading-underlines-and-accent-decorators-hover-states-border-accents-and-any-other-element-currently-using-green-update-the-css-custom-properties-in-frontend-src-index-css-the-tailwind-config-brand-colors-in-frontend-tailwind-config-js-and-all-inline-classname-color-references-in-each-component-file-navigation-tsx-herosection-tsx-aboutsection-tsx-whychooseussection-tsx-testimonialssection-tsx-gallerysection-tsx-contactsection-tsx-footer-tsx-app-tsx-ensure-the-new-blue-palette-is-visually-consistent-and-professional-use-a-dark-royal-blue-1a4fa0-as-the-primary-brand-color-a-lighter-blue-2563eb-or-similar-for-hover-accent-states-and-a-deep-navy-0f2d6b-or-similar-for-dark-section-backgrounds-replacing-dark-green-white-remains-the-background-and-text-on-color-remains-white",
+      "title": "Replace all green color values with royal blue (#1a4fa0) and its tonal variants across the entire website. This includes: the Navigation bar background and logo accent, the Hero section background/gradient overlay, all CTA and action buttons, the Why Choose Us section icon accents and card hover highlights, the Testimonials section background (currently dark green), the Footer background, all section heading underlines and accent decorators, hover states, border accents, and any other element currently using green. Update the CSS custom properties in frontend/src/index.css, the Tailwind config brand colors in frontend/tailwind.config.js, and all inline/className color references in each component file (Navigation.tsx, HeroSection.tsx, AboutSection.tsx, WhyChooseUsSection.tsx, TestimonialsSection.tsx, GallerySection.tsx, ContactSection.tsx, Footer.tsx, App.tsx). Ensure the new blue palette is visually consistent and professional: use a dark royal blue (#1a4fa0) as the primary brand color, a lighter blue (#2563eb or similar) for hover/accent states, and a deep navy (#0f2d6b or similar) for dark section backgrounds (replacing dark green). White remains the background and text-on-color remains white.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with heading, subheading, and 'Visit Us Today' CTA button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section describing Apna Bazar Harda as one of the best grocery stores in Harda",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Why Choose Us section with 6 features: 4.5 Star Rated, Affordable Pricing, Wide Range of Products, Friendly Staff, Easy Trolley Shopping, Fast Billing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Customer Testimonials section with summarized positive feedback",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Gallery section with placeholder images",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact section with location (Harda), open daily info, phone placeholder, and Google Maps integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Replace green color theme with royal blue (#1a4fa0) across the entire website: navbar, hero background, buttons, section accents, card highlights, and all green elements",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Apna Bazar Harda",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,13 @@
+{
+  "frontend/src/index.css": "Global stylesheet with royal blue OKLCH color system replacing the previous green theme, importing Poppins and Playfair Display fonts, and defining brand-specific utility classes using blue tokens.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with royal blue brand color palette (brand.blue, brand.blue-dark, brand.blue-light, brand.blue-pale, brand.blue-muted) replacing all green tokens, with updated box-shadow colors.",
+  "frontend/src/App.tsx": "Root application component that composes all page sections (Navigation, Hero, About, WhyChooseUs, Testimonials, Gallery, Contact, Footer) in a single-page layout with section IDs for smooth scroll navigation.",
+  "frontend/src/components/Navigation.tsx": "Sticky top navigation bar with deep navy blue (#oklch 0.28 0.18 255) background, white nav links, and a white \"Visit Us\" CTA button with blue text.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport hero section with royal blue gradient overlay replacing the green overlay, blue decorative circles, and blue-tinted CTA button accent.",
+  "frontend/src/components/AboutSection.tsx": "About Us section with all green color values replaced by royal blue equivalents — pale blue backgrounds, blue accent underlines, blue floating badge, and blue feature pills.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "Why Choose Us section with royal blue replacing all green icon accents, card borders, section background tint, and heading underlines.",
+  "frontend/src/components/TestimonialsSection.tsx": "Customer Testimonials section with deep navy blue background replacing dark green, blue accent underline, and blue-tinted quote icon backgrounds.",
+  "frontend/src/components/GallerySection.tsx": "Gallery section with royal blue hover overlays, label badges, and lightbox navigation buttons replacing all green color values.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with royal blue info card accents, map CTA bar background, and \"Get Directions\" button replacing all green color values (status badge kept green for semantic meaning).",
+  "frontend/src/components/Footer.tsx": "Full-featured footer with deep navy blue background replacing dark green, royal blue accent borders and icon colors, and a white \"Visit Us Today\" CTA button."
+}

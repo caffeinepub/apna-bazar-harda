@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting the replacement of all green color values with royal blue (#1a4fa0) and tonal variants across all frontend component and config files.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of each frontend source file describing the royal blue color theme applied across components, CSS, and Tailwind config.",
+  "frontend/index.css": "Base Tailwind CSS entry file defining OKLCH-based CSS custom properties for light and dark themes used by shadcn/ui components.",
+  "frontend/index.html": "HTML entry point for the Apna Bazar Harda React app, mounting the app into a root div and loading the main TypeScript module.",
+  "frontend/src/App.tsx": "Root React component that assembles all page sections (Navigation, Hero, About, WhyChooseUs, Testimonials, Gallery, Contact, Footer) into a single-page layout with anchor IDs.",
+  "frontend/src/components/AboutSection.tsx": "About Us section component featuring a store image, floating badge, and descriptive text, styled entirely with royal blue OKLCH color values.",
+  "frontend/src/components/ContactSection.tsx": "Contact and location section displaying info cards, an embedded Google Map, and a CTA bar, with royal blue accents and a green semantic status badge.",
+  "frontend/src/components/Footer.tsx": "Site footer with deep navy blue background, quick links, product categories, contact info columns, and a white 'Visit Us Today' CTA button.",
+  "frontend/src/components/GallerySection.tsx": "Renders a photo gallery grid of 6 supermarket images with a lightbox viewer that supports next/prev navigation and zoom overlay.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with a background image, gradient overlay, store stats, and CTA buttons that smooth-scroll to contact and about sections.",
+  "frontend/src/components/Navigation.tsx": "Fixed top navigation bar with logo, desktop nav links, a 'Visit Us' CTA, and a responsive mobile hamburger menu with smooth-scroll behavior.",
+  "frontend/src/components/TestimonialsSection.tsx": "Displays a grid of 5 customer testimonial cards with star ratings, quotes, and avatar initials on a dark blue background.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "Renders a 6-feature grid highlighting store advantages (rating, pricing, products, staff, trolleys, billing) with icons, hover animations, and accent underlines.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication on the ICP platform, exposing login/logout functions, identity state, and login status via an `InternetIdentityProvider` wrapper component.",
+  "frontend/src/index.css": "Global stylesheet that sets up Tailwind CSS layers, imports Google Fonts (Poppins and Playfair Display), and defines a royal blue and white brand theme using CSS custom properties and utility classes.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app with `QueryClientProvider` for data fetching and `InternetIdentityProvider` for ICP authentication wrapping the root `App` component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom brand colors (royal blue palette), typography/display font families, border radii, and box shadows, plus plugins for typography, container queries, and animations.",
+  "project_state.json": "Tracks the current project state (version 5) for the 'Apna Bazar Harda' supermarket website, documenting implemented features, architectural notes (royal blue theme, mobile responsiveness), and known issues."
+}

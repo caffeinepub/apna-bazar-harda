@@ -1,0 +1,54 @@
+{
+  "kind": "build_request",
+  "title": "Replace green color theme with royal blue across the entire website",
+  "projectName": "Apna Bazar Harda",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Replace all green color values with royal blue (#1a4fa0) and its tonal variants across the entire website. This includes: the Navigation bar background and logo accent, the Hero section background/gradient overlay, all CTA and action buttons, the Why Choose Us section icon accents and card hover highlights, the Testimonials section background (currently dark green), the Footer background, all section heading underlines and accent decorators, hover states, border accents, and any other element currently using green. Update the CSS custom properties in frontend/src/index.css, the Tailwind config brand colors in frontend/tailwind.config.js, and all inline/className color references in each component file (Navigation.tsx, HeroSection.tsx, AboutSection.tsx, WhyChooseUsSection.tsx, TestimonialsSection.tsx, GallerySection.tsx, ContactSection.tsx, Footer.tsx, App.tsx). Ensure the new blue palette is visually consistent and professional: use a dark royal blue (#1a4fa0) as the primary brand color, a lighter blue (#2563eb or similar) for hover/accent states, and a deep navy (#0f2d6b or similar) for dark section backgrounds (replacing dark green). White remains the background and text-on-color remains white.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5",
+          "msg-6",
+          "msg-7",
+          "msg-8"
+        ],
+        "quotes": [
+          "royal blue",
+          "replace it",
+          "replacing all green colors with royal blue (#1a4fa0) across the entire website right now"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No green color values (#1a7a3c, #166534, or similar) remain in any component, CSS, or Tailwind config file",
+        "Navigation bar uses royal blue background (#1a4fa0 or close variant)",
+        "Hero section background/gradient uses royal blue",
+        "All buttons use royal blue with appropriate hover states in a lighter or darker blue",
+        "Testimonials section dark background is replaced with deep navy blue instead of dark green",
+        "Footer background is replaced with deep navy blue instead of dark green",
+        "Section accent underlines, card icon colors, and hover highlights all use blue variants",
+        "Tailwind config brand color tokens are updated to blue values",
+        "CSS custom properties in index.css are updated to blue values",
+        "The website remains fully mobile-responsive after the color change",
+        "White text on blue backgrounds remains legible throughout"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify files under frontend/src/hooks/ or frontend/src/main.tsx",
+    "Do not change any content, copy, layout, or structural HTML — only color values",
+    "White background for main content sections must be preserved"
+  ],
+  "nonGoals": [
+    "Adding new sections or features",
+    "Changing typography or fonts",
+    "Modifying layout or spacing",
+    "Backend changes"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
